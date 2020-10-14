@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+*{
+    font-family: 'Istok Web', sans-serif;
+}
+h1 {
+    font-size: 105px;
+    color: white;
+    text-align: center;
+}
+
+.applepie { 
+    background-image: url('https://raw.githubusercontent.com/bdmelo21/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+}
+p {
+    text-align: center;
+    text-justify: inter-word;
+}
+.imgarticle1 {
+    height: 30%;
+    width: 30%;
+    align-items: center;
+    position: relative;
+}
+.line{
+    height: 47px;
+    border-bottom: 1px solid grey;
+    }
